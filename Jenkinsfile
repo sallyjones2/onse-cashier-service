@@ -1,7 +1,7 @@
-def github_id = 'CHANGEME'
+def github_id = 'sallyjones2'
 
 def namespace = github_id.toLowerCase()
-def image_name = "onsetraining/${namespace}-cashier-service"
+def image_name = "onseshared/${namespace}-cashier-service"
 def git_repository = "https://github.com/${github_id}/onse-cashier-service"
 
 def kaniko_image = 'gcr.io/kaniko-project/executor:debug-b0e7c0e8cd07ef3ad2b7181e0779af9fcb312f0b'
